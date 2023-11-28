@@ -18,18 +18,20 @@
 # print(dice_imgs[dice_num])
 
 # ? Play Computer
-year = int(input("What's your year of birth?"))
-if year > 1980 and year < 1994:
-    print("You are a millenial.")
-  #! The code skipped 1994 because it didn't include it in the condition 
-  #! to fix it, let's change to >= instead of > 1994. 
-elif year >= 1994:
-    print("You are a Gen Z.")
+# year = int(input("What's your year of birth?"))
+# if year > 1980 and year < 1994:
+#     print("You are a millenial.")
+#   #! The code skipped 1994 because it didn't include it in the condition
+#   #! to fix it, let's change to >= instead of > 1994.
+# elif year >= 1994:
+#     print("You are a Gen Z.")
 
 # ? Fix the Errors
-# age = input("How old are you?")
+# #! The age has to be parsed into integer
+# age = int(input("How old are you?"))
 # if age > 18:
-# print("You can drive at age {age}.")
+# #! The age has to be printed in an F string.
+#   print(f"You can drive at age {age}.")
 
 # ? Print is Your Friend
 # pages = 0
